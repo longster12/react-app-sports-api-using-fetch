@@ -1,0 +1,77 @@
+Body {
+  color: darkgrey;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+.lufc__h1 {
+  color: darkgrey !important;
+  font-size: 3rem;
+  margin: 0px;
+}
+.lufc__title {
+  font-family: sans-serif;
+  color: #5a5a5a;
+  font-weight: bold;
+}
+.lufc-header__logo img {
+  float: left;
+  width: 120px;
+}
+
+.lufc-header__content {
+  /* float: left; */
+  text-align: left;
+}
+.lufc-body__card {
+  border: solid #d1d1d1 1px !important;
+  -webkit-box-shadow: initial!important;
+  box-shadow: initial !important;
+}
+.card-action.lufc-card__button {
+  text-align: left;
+}
+img {
+  -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(60%);
+}
+.card.small, .card.medium, .card.large {
+  position: relative;
+  padding: 25px;
+}
+
+.App-header {
+  background-color: #fffff;
+  min-height: 20vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: flex-start; */
+
+margin:40px 40px 0px;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #189bda;
+}
+li {
+  width: 90%;
+  list-style-type: none;
+}
+.card {
+  position: relative;
+  margin: .5rem 0 1rem 0;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+
+}
